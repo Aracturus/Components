@@ -1,9 +1,7 @@
 import React from 'react'
 
-export default function CompOne() {
+export default function Product() {
     return (
-        <>
-       
         <div>
             <section class="hero is-large is-info">
                 <div class="hero-body">
@@ -36,7 +34,7 @@ export default function CompOne() {
 
                     </div>
                 </div>
-            </section>                   <div className="container" >
+            </section>
             <section class="hero is-small is-white has-text-centered">
                 <div class="hero-body">
                     <p class="title">
@@ -50,32 +48,7 @@ export default function CompOne() {
                             <div class="column">
                                 <div >
                                     <div class="card-image">
-                                        <figure class="image is-2by1">
-                                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image" />
-                                        </figure>
-                                    </div>
-                                    <div class="card-content">
-                                        <div class="media">
-                                            
-                                            <div class="media-content">
-                                                <p class="title is-4">We get you set up</p>
-                                                
-                                            </div>
-                                        </div>
-                                        <br/>
-
-                                        <div class="content">
-                                        First, we’ll introduce you to a dedicated bookkeeper. They’ll get to know your business, show you how Bench works, and gather everything they need from you.
-                                            <br />
-                                          
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <div >
-                                    <div class="card-image">
-                                        <figure class="image is-2by1">
+                                        <figure class="image is-4by3">
                                             <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image" />
                                         </figure>
                                     </div>
@@ -120,7 +93,6 @@ export default function CompOne() {
                                           
                                         </div>
                                     </div>
-                                    
                                 </div>
                             </div>
                             <div class="column">
@@ -146,14 +118,14 @@ export default function CompOne() {
                                           
                                         </div>
                                     </div>
-                                    
                                 </div>
                             </div>
+                            
 
                         </div>
                     </div>
                 </div>
-            </section></div>
+            </section>
             <section class="hero is-small is-info">
                 <div class="hero-body">
                     <p class="title">
@@ -391,8 +363,5 @@ export default function CompOne() {
             </section>
 
         </div>
-    
-            
-        </>
     )
 }
