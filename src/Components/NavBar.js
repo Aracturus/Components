@@ -4,30 +4,31 @@ import {BrowserRouter as Router , Link  } from 'react-router-dom';
 
 
 
+
 export default function NavBar() {
     return (
         <>
         <Router>
 
-<nav className="navbar" role="navigation" aria-label="main navigation">
-  <div className="navbar-brand">
-    <Link className="navbar-item" href="https://bulma.io">
-      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"/>
-    </Link>
+                    <nav className="navbar" role="navigation" aria-label="main navigation">
+                        <div className="navbar-brand">
+                            <Link className="navbar-item" href="https://bulma.io">
+                            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"/>
+                            </Link>
 
-    <Link role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </Link>
-  </div>
+                            <Link role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            </Link>
+                        </div>
          
 
                 
                         <div id="navbarBasicExample" className="navbar-menu">
                             <div className="navbar-start">
                             <div className="navbar-item has-dropdown is-hoverable">
-                                <Link to="/Products" className="navbar-link">
+                                <Link to="/products" className="navbar-link">
 
                                 PRODUCTS
                                 
@@ -37,7 +38,7 @@ export default function NavBar() {
                                 <Link to="/products"className="navbar-item">
                                     CMX Sentinel
                                 </Link>
-                                <Link to="/product" className="navbar-item">
+                                <Link to="/products" className="navbar-item">
                                     CMX Stream
                                 </Link>
                                 
@@ -159,7 +160,7 @@ export default function NavBar() {
                                 <Link  to="/company"className="navbar-item">
                                 sustanibility
                                 </Link>
-                                <Link to="/company" className="navbar-item">
+                                <Link to="/company/career" className="navbar-item">
                                 careers
                                 </Link> 
                                 </div>

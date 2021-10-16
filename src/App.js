@@ -8,6 +8,7 @@ import CompThree from './Components/CompThree';
 import NavBar from './Components/NavBar';
 import Products from './Components/Products';
 import Trendius from './Components/Trendius';
+import Career from './Components/Career';
 
 function App() {
   return (
@@ -15,22 +16,25 @@ function App() {
     <Router>
         <NavBar/>
       <Switch>
-      <Route exact path="/">
-        <CompOne/>
-        <CompTwo/>
-        <CompThree/>
+          <Route exact path="/">
+            <CompOne/>
+            <CompTwo/>
+            <CompThree/>
 
-        </Route>
-        <Route exact path="/products">
-          <Products/>
-        </Route>
-      <Route exact path="/trendius">
-          <Trendius/>
-        </Route>
+          </Route>
+          <Route exact path="/products">
+              <Products/>
+          </Route>
+          <Route exact path="/trendius">
+            <Trendius/>
+          </Route>
+          <Route exact path="/company/career">
+            <Career/>
+          </Route>
      
         
 
-        </Switch>
+      </Switch>
     </Router>
       
     </>
