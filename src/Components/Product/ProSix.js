@@ -47,32 +47,29 @@ export default function ProSix() {
           setClicked(index);
         };
     return (
-        <>
-
-
-    
-      
+        <> 
 
  
 
 
-    <section className="hero is-small is-white">
-      <div className="hero-body">
+    <section className="hero hero-container is-small is-light ">
+      <div className="hero-body prothree-hero-body">
+      <h1 className="accordin-head">Specification</h1>
+
         
 
         <div className="container-acco">
-             <h1 className="accordin-head">Specification</h1>
-            <div className='AccordionSectio '>
-            <div className='Container'>
+            <div className='AccordionSection '>
+            <div className=''>
             {Data.map((item, index) => {
                 return (
                 <div>
                     <div className='Wrap' onClick={() => toggle(index)} key={index}>
-                    <h1 class="accordin-que">{item.question}</h1>
+                    <h2 class="accordin-que">{item.question}</h2>
                     <span>{clicked === index ? <i className="fas fa-minus"></i> : <i className="fas fa-plus"></i>}</span>
                     </div>
                     {clicked === index ? (
-                    <div div className='Dropdown'>
+                    <div className='Dropdown-span'>
                         <span><b style={{paddingRight:'5px'}}>Answer:</b> {item.answer1}</span>
                         <span><b style={{paddingRight:'5px'}}>Answer: </b>{item.answer2}</span>
                         <span><b style={{paddingRight:'5px'}}>Answer: </b>{item.answer3}</span>

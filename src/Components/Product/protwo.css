@@ -3,7 +3,7 @@
     margin: 3rem 20%;
 }
 .bene-head{
-    padding: 2rem 0px;
+    padding: 0 0px;
 }
 
 .bene-heading{
@@ -17,9 +17,11 @@
     padding:  20px ;
     font-size: 18px;
 }
-.photo-circle{
-    border-radius: 50%;
-    width: 120px;
+.photo-circle-2{
+    /* border: 2px solid #ff0000; */
+    /* border-radius: 50%; */
+    /* width: 12rem; */
+    height: 8rem;
 }
 .tile{
     padding:2rem;
@@ -31,7 +33,7 @@
     width: 100%;
 }
 .is-child{
-    border-right: 2px solid rgb(87, 80, 80);
+    /* border-right: 2px solid rgb(87, 80, 80); */
     margin: 2px;
     margin:2rem 0;
 

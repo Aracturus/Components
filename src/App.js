@@ -13,29 +13,34 @@ import Career from './Components/Career';
 function App() {
   return (
     <>
-    <Router>
-        <NavBar/>
+  
       <Switch>
           <Route exact path="/">
+        <NavBar/>
             <CompOne/>
             <CompTwo/>
             <CompThree/>
 
           </Route>
-          <Route exact path="/products">
+          <Route  path="/products">
+        <NavBar/>
+
               <Products/>
           </Route>
-          <Route exact path="/trendius">
+          <Route  path="/trendius">
+          <NavBar/>
+
             <Trendius/>
           </Route>
-          <Route exact path="/company/career">
+          <Route  path="/company/career">
+           <NavBar/>
             <Career/>
           </Route>
      
         
 
       </Switch>
-    </Router>
+  
       
     </>
   );

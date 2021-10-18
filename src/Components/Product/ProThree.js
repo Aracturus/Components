@@ -5,14 +5,13 @@ import mainimage2 from './Images/mainimage2.png'
 export default function ProThree() {
     return (
         <>
+        {/* <div className="container"> */}
 
 
-
-             <section className="hero is-small is-white">
+             <section className="hero is-small is-white mt-0">
             <div className="hero-body">
             <nav class="navbar" role="navigation" aria-label="main navigation">
-
-                <div id="navbarBasicExample" class="navbar-menu has-background-light">
+                <div id="navbarBasicExample" class="navbar-menu has-background-light title">
                     <div class="navbar-start">
                     <a class="navbar-item has-text-red">
                         Overview
@@ -59,6 +58,8 @@ export default function ProThree() {
 
             </div>
             </section>
+        {/* </div> */}
+
         </>
     )
 }

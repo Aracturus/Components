@@ -13,3 +13,6 @@
     margin: 2rem 1rem;
     width: 90%;
 } */
+.hero-body{
+    margin-top: 0 !important;
+}

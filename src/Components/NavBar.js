@@ -1,6 +1,5 @@
 import React from 'react'
-import {BrowserRouter as Router , Link  } from 'react-router-dom';
-
+import {BrowserRouter as Router, Link } from 'react-router-dom';
 
 
 
@@ -12,9 +11,9 @@ export default function NavBar() {
 
                     <nav className="navbar" role="navigation" aria-label="main navigation">
                         <div className="navbar-brand">
-                            <Link className="navbar-item" href="https://bulma.io">
-                            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"/>
-                            </Link>
+                            <a className="navbar-item" href={'https://bulma.io'}>
+                            <img src={'https://bulma.io/images/bulma-logo.png'} width="112" height="28"/>
+                            </a>
 
                             <Link role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                             <span aria-hidden="true"></span>
