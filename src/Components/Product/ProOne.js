@@ -15,7 +15,7 @@ export default function ProOne() {
                 <p class="subtitle">
                 <div className="img-head-container">
 
-                <span className="conpone-head">Trendius&reg; CMX </span> <img className="conpone-vedio" src={drone1} alt="drone picture" /> 
+                <span className="conpone-head" style={{fontFamily:"45px"}}>Trendius&reg; CMX </span>  
                 </div><br />
 
                 <div className="conpone-head2">Always Within Earshot</div>
