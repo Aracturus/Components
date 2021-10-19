@@ -1,5 +1,9 @@
 
+.accordin-head{
+  font-size: 3.2rem !important;
 
+
+}
 .accordin-que{
   font-size: 1.1rem !important;
   color: white ;
@@ -39,8 +43,7 @@
   height: 3rem;
 }
 .hero-container{
-  background-image: url(https://media.istockphoto.com/photos/businessman-on-blurred-background-holding-hand-drawn-question-marks-picture-id1211202460?s=612x612);
-  background-size: cover;
+  background:white ;
 
 }
 @media screen and (max-width:480px) {

@@ -54,7 +54,7 @@ export default function ProSix() {
 
     <section className="hero hero-container is-small is-light ">
       <div className="hero-body prothree-hero-body">
-      <h1 className="accordin-head">Specification</h1>
+      <h1 className="accordin-head mt-3 mb-3 fs-2">Specification</h1>
 
         
 
